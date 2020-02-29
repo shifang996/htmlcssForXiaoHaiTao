@@ -1,0 +1,176 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0 auto;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	/*vertical-align: middle;*/
+	font-family: "微软雅黑";
+	
+}
+article ul li a:hover{
+	color: orange;
+}
+.content {
+	width: 1434px;
+	height: 800px;
+	/*background-color: oldlace;*/
+}
+
+.head {
+	width: 1434px;
+	height: 56px;
+	position: relative;
+}
+
+.head-img a {
+	position: absolute;
+	left: 212px;
+}
+
+.head article {
+	width: 410px;
+	height: 56px;
+	/*background-color: orange;*/
+	position: absolute;
+	left: 364px;
+}
+
+.head li {
+	float: left;
+	font-size: 14px;
+	line-height: 56px;
+	padding-right: 24px;
+	/*text-indent: 6px;*/
+}
+
+.head select {
+	border: none;
+}
+
+.head-search {
+	width: 220px;
+	height: 30px;
+	/*background-color: lightgray;*/
+	position: absolute;
+	top: 10px;
+	left: 794px;
+	border-radius: 3px;
+}
+
+.head .search {
+	position: absolute;
+	top: 10px;
+	left: 976px;
+}
+
+.head aside {
+	position: absolute;
+	top: 12px;
+	left: 1130px;
+	font-weight: bold;
+}
+
+.ouside {
+	width: 60px;
+	height: 30px;
+	background-color: #ffb400;
+	color: white;
+	position: absolute;
+	top: 10px;
+	left: 1030px;
+	border: none;
+	border-radius: 3px;
+}
+
+.middle {
+	height: 380px;
+	width: 1434px;
+}
+
+.footer {
+	width: 1434px;
+	height: 362px;
+	/*background-color: blanchedalmond;*/
+	position: relative;
+}
+
+.footer-top {
+	width: 1000px;
+	height: 84px;
+	/*background-color: lightcoral;*/
+	position: absolute;
+	left: 214px;
+}
+
+.footer-photo1 {
+	width: 222px;
+	height: 278px;
+	/*background-color: lightblue;*/
+	position: absolute;
+	top: 86px;
+	left: 214px;
+	font-size: 14px;
+}
+
+.footer-photo1 dd,
+.footer-photo2 dd,
+.footer-photo3 dd,
+.footer-photo4 dd {
+	font-size: 14px;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.footer-photo1_dd,
+.footer-photo2_dd,
+.footer-photo3_dd,
+.footer-photo4_dd {
+	font-size: 12px;
+	font-weight: lighter;
+
+}
+
+.footer-photo2 {
+	width: 222px;
+	height: 278px;
+	/*background-color: lightblue;*/
+	position: absolute;
+	top: 86px;
+	left: 474px;
+}
+
+.footer-photo3 {
+	width: 222px;
+	height: 278px;
+	/*background-color: lightblue;*/
+	position: absolute;
+	top: 86px;
+	left: 732px;
+}
+
+.footer-photo4 {
+	width: 222px;
+	height: 278px;
+	/*background-color: lightblue;*/
+	position: absolute;
+	top: 86px;
+	left: 992px;
+}
+
+.footer-top_left {
+	position: absolute;
+	font-size: 20px;
+	line-height: 84px;
+	font-weight: bold;
+}
+
+.footer-top_rg {
+	position: absolute;
+	font-size: 12px;
+	line-height: 84px;
+	left: 966px;
+	line-height: 84px;
+	color: blue;
+}

@@ -1,0 +1,24 @@
+.product{
+	width: 1200px;
+	background-color: pink;
+	margin: 20px auto;
+}
+.product li{
+	width: 228px;
+	height: 270px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	float: left;
+	border: 1px solid;
+	overflow: hidden;
+	transition: all 0.4s;
+}
+.product li:nth-child(5n){
+	margin-right: 0px;
+}
+.product img:hover{
+	transform: translateX(-5px);
+}
+.product li:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+}

@@ -1,0 +1,20 @@
+2017-03-23 14:42:36: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。   在 System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult)
+   在 Yinrg.Net.Sockets.SocketClient.wQh1k8mXtn4yGgQ8LDh(Object , Object )
+   在 Yinrg.Net.Sockets.SocketClient.SendByteCallBack(IAsyncResult ar)
+2017-03-23 14:42:46: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。   在 System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult)
+   在 Yinrg.Net.Sockets.SocketClient.wQh1k8mXtn4yGgQ8LDh(Object , Object )
+   在 Yinrg.Net.Sockets.SocketClient.SendByteCallBack(IAsyncResult ar)
+2017-03-23 14:42:46: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。   在 System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult)
+   在 Yinrg.Net.Sockets.SocketClient.wQh1k8mXtn4yGgQ8LDh(Object , Object )
+   在 Yinrg.Net.Sockets.SocketClient.SendByteCallBack(IAsyncResult ar)
+2017-03-23 15:32:19: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 Yinrg.Net.Sockets.SocketClient.s91nev5CPITrFiQpWCt(Object , Object )
+   在 Yinrg.Net.Sockets.SocketClient.GsnOTWuuJ(IAsyncResult  )

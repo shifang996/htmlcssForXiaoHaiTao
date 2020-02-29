@@ -1,0 +1,264 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0 auto;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	font-family: "微软雅黑";
+	vertical-align: middle;
+}
+
+.content {
+	width: 1374px;
+	height: 558px;
+	/*background-color: navajowhite;*/
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	top: 26px;
+	left: 98px;
+}
+
+.select {
+	position: absolute;
+	top: 42px;
+	left: 310px;
+	border: none;
+	font-size: 12px;
+}
+
+.select option {
+	color: #9f9f9f;
+}
+
+nav {
+	width: 756px;
+	height: 98px;
+	/*background-color: oldlace;*/
+	position: absolute;
+	left: 434px;
+}
+
+.nav-text {
+	width: 638px;
+	height: 34px;
+	position: absolute;
+	top: 40px;
+	border: 2px solid #00b988;
+}
+
+.nav-submit {
+	width: 92px;
+	height: 38px;
+	background-color:#00b988;
+	color: white;
+	font-size: 14px;
+	position: absolute;
+	border: none;
+	top: 40px;
+	left: 600px;
+}
+
+nav li {
+	float: left;
+	padding-right: 16px;
+	font-size: 10px;
+	
+}
+nav li a{
+	color: #cdc0aa;
+}
+nav article {
+	position: absolute;
+	top: 82px;
+}
+
+aside {
+	width: 174px;
+	height: 400px;
+	background-color: #00b988;
+	position: absolute;
+	top: 110px;
+	left: 92px;
+}
+
+aside .aside-soec {
+	display: block;
+	width: 154px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #00a77a;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 0px;
+	margin-top: -14px;
+	margin-bottom: -14px;
+	margin-left: -20px;
+	padding-left: 20px;
+}
+
+aside li {
+	padding-top: 14px;
+	padding-bottom: 14px;
+	padding-left: 20px;
+}
+
+aside a {
+	color: white;
+	font-size: 12px;
+}
+
+.nav-nav {
+	width: 1006px;
+	height: 40px;
+	background-color: white;
+	position: absolute;
+	top: 110px;
+	left: 280px;
+	border-bottom: 2px solid #00a77a;
+}
+
+.nav-nav li {
+	float: left;
+	text-indent: 30px;
+	line-height: 40px;
+	padding-right: 30px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.content-img {
+	position: absolute;
+	left: 280px;
+	top: 160px;
+}
+
+.content-rg {
+	width: 250px;
+	height: 362px;
+	background-color: #eff2f4;
+	position: absolute;
+	top: 160px;
+	left: 1034px;
+}
+
+.content-rg article {
+	width: 250px;
+	height: 266px;
+	border-bottom: 1px solid #00b988;
+}
+
+.content-rg span a {
+	font-size: 16px;
+	color: green;
+	font-weight: bold;
+	font-family: "幼圆";
+	position: absolute;
+	top: 30px;
+	left: 20px;
+}
+
+.content-rg input {
+	width: 206px;
+	height: 30px;
+}
+
+.content-rg_text1 {
+	position: absolute;
+	top: 66px;
+	left: 20px;
+}
+
+.content-rg_text2 {
+	position: absolute;
+	top: 110px;
+	left: 20px;
+}
+
+.content-rg_text3 {
+	position: absolute;
+	top: 154px;
+	left: 20px;
+}
+
+.content-rg_sub {
+	
+	position: absolute;
+	left: 20px;
+	top: 204px;
+	background-color: #00b988;
+	color: white;
+	border: none;
+	font-size: 16px;
+}
+.content-rg .content-rg_bu1{
+	width: 108px;
+	height: 20px;
+	border-radius: 10px;
+	position: absolute;
+	left: 20px;
+	top: 286px;
+	border: 1px solid #00b988;
+	color: #00b988;
+	background-image: url(../img/11.jpg);
+	background-position: 6px;
+	background-repeat: no-repeat;
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+}
+.content-rg .content-rg_bu2{
+	width: 108px;
+	height: 20px;
+	border-radius: 10px;
+	border: 1px solid green;
+	position: absolute;
+	left: 136px;
+	top: 286px;
+	border: 1px solid #00b988;
+	color: #00b988;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	background-image: url(../img/11.jpg);
+	background-position: 10px;
+	background-repeat: no-repeat;
+}
+.content-rg .content-rg_bu3{
+	width: 108px;
+	height: 20px;
+	border-radius: 10px;
+	border: 1px solid green;
+	position: absolute;
+	left: 20px;
+	top: 317px;
+	border: 1px solid #00b988;
+	color: #00b988;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	background-image: url(../img/11.jpg);
+	background-position: 10px;
+	background-repeat: no-repeat;
+}
+.content-rg .content-rg_bu4{
+	width: 108px;
+	height: 20px;
+	border-radius: 10px;
+	border: 1px solid green;
+	position: absolute;
+	left: 136px;
+	top: 317px;
+	border: 1px solid #00b988;
+	color: #00b988;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	background-image: url(../img/11.jpg);
+	background-position: 10px;
+	background-repeat: no-repeat;
+}

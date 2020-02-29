@@ -1,0 +1,5 @@
+2019-03-07 10:29:02: Object reference not set to an instance of an object.   at server.Form1.XYAMES8RVjh8aFCWAsB(Object )
+   at server.Form1.lP9ipFLHp(Object  , DoWorkEventArgs  )
+2019-03-07 17:44:21: 服务还没有启动   at Yinrg.Net.Sockets.SocketServer.Stop()
+   at server.Form1.GWpkJ6AfU1i88Dg06Sq(Object )
+   at server.Form1.lP9ipFLHp(Object  , DoWorkEventArgs  )

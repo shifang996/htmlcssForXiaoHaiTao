@@ -1,0 +1,2 @@
+2017-08-21 10:46:28: 此实现不是 Windows 平台 FIPS 验证的加密算法的一部分。   在 System.Security.Cryptography.MD5CryptoServiceProvider..ctor()
+   在 server.Form1.lP9ipFLHp(Object  , DoWorkEventArgs  )

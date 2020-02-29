@@ -1,0 +1,54 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0 auto;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	vertical-align: middle;
+}
+.bigbox{
+	width: 1418px;
+	height: 640px;
+	background-color: khaki;
+}
+.nav{
+	width: 1418px;
+	height: 116px;
+	background-color: pink;
+}
+.nav-top{
+	width: 1200px;
+	height: 64px;
+	background-color: blanchedalmond;
+}
+.nav-bottom{
+	width: 1200px;
+	height: 52px;
+	background-color: cornsilk;
+}
+.page{
+	width: 1200px;
+	height:524px ;
+	background-color: darkkhaki;
+}
+.left{
+	width: 210px;
+	height: 524px;
+	background-color: chartreuse;
+	float: left;
+	margin-right:4px;
+}
+.middle{
+	width: 772px;
+	height: 524px;
+	background-color: darkcyan;
+	float: left;
+	margin-left: 4px;
+}
+.right{
+	width: 200px;
+	height: 524px;
+	background-color: orange;
+	float: right;
+}

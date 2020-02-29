@@ -1,0 +1,331 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0 auto;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	vertical-align: baseline;
+	font-family: 幼圆;
+}
+
+.content {
+	width: 1308px;
+	height: 794px;
+	background-color: #f2f2f2;
+	position: relative;
+}
+
+.top {
+	width: 980px;
+	height: 32px;
+	/*background-color: navajowhite;*/
+	position: relative;
+}
+
+.top-left {
+	height: 32px;
+	width: 240px;
+	/*background-color: oldlace;*/
+	position: absolute;
+	left: 0px;
+}
+
+.top-left li {
+	float: left;
+	padding-right: 20px;
+	font-size: 12px;
+	/*font-family: "新宋体";*/
+	line-height: 32px;
+}
+
+.top-left a,
+.top-right a {
+	font-family: "微软雅黑";
+}
+
+.top-right {
+	width: 226px;
+	height: 32px;
+	/*background-color: lawngreen;*/
+	position: absolute;
+	left: 752px;
+}
+
+.top-right li {
+	float: left;
+	font-size: 12px;
+	padding-right: 20px;
+	line-height: 32px;
+}
+
+.nav {
+	height: 152px;
+	width: 980px;
+	background-color: white;
+	z-index: 1;
+	position: absolute;
+	top: 33px;
+	left: 164px;
+}
+
+.nav-top {
+	width: 942px;
+	height: 94px;
+	/*background-color: palegoldenrod;*/
+	position: absolute;
+	left: 18px;
+	border-bottom: 3px solid #b40025;
+}
+
+.bank {
+	/*height: 94px;*/
+	position: absolute;
+	left: 0px;
+	top: 3px;
+}
+
+.nav-middle {
+	width: 350px;
+	height: 30px;
+	/*background-color: lightgray;*/
+	position: absolute;
+	top: 44px;
+	left: 350px;
+}
+
+.nav-middle li {
+	float: left;
+	line-height: 30px;
+	font-size: 14px;
+	padding-right: 18px;
+	font-weight: bold;
+}
+
+.nav-text {
+	width: 220px;
+	height: 28px;
+	border-radius: 3px;
+	/*background-color: lightblue;*/
+	z-index: 1;
+	position: absolute;
+	top: 44px;
+	left: 726px;
+	border: 1px solid gainsboro;
+}
+
+.nav-seach {
+	position: absolute;
+	top: 50px;
+	left: 922px;
+	z-index: 1;
+}
+
+.nav-nav {
+	width: 942px;
+	height: 54px;
+	/*background-color: lightgreen;*/
+	position: absolute;
+	top: 96px;
+	left: 19px;
+}
+
+.nav-nav li {
+	float: left;
+	line-height: 54px;
+	font-size: 15px;
+	font-weight: bold;
+	padding-right: 60px;
+}
+
+.img {
+	width: 980px;
+	height: 382px;
+	/*background-color: aquamarine;*/
+	position: absolute;
+	top: 202px;
+	left: 164px;
+	z-index: 0.5;
+}
+
+.img-top-1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.img-rg-box {
+	width: 224px;
+	height: 188px;
+	background-color: white;
+	border-radius: 3px;
+	left: 730px;
+	z-index: 1;
+	top: 0px;
+}
+
+.img-bot-box1 {
+	width: 184px;
+	height: 90px;
+	background-color: white;
+	position: absolute;
+	top: 290px;
+	left: 0px;
+	line-height: 45px;
+	text-align: center;
+}
+
+.img-bot-box1 a,
+.img-bot-box2 a,
+.img-bot-box3 a,
+.img-bot-box4 a {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.img-bot-box2 {
+	width: 184px;
+	height: 90px;
+	background-color: white;
+	position: absolute;
+	top: 290px;
+	left: 185px;
+	line-height: 45px;
+	text-align: center;
+}
+
+.img-bot-box3 {
+	width: 184px;
+	height: 90px;
+	background-color: white;
+	position: absolute;
+	top: 290px;
+	left: 370px;
+	line-height: 45px;
+	text-align: center;
+}
+
+.img-bot-box4 {
+	width: 184px;
+	height: 90px;
+	background-color: white;
+	position: absolute;
+	top: 290px;
+	left: 555px;
+	line-height: 45px;
+	text-align: center;
+}
+
+.img-bot-bigbox {
+	width: 236px;
+	height: 90px;
+	background-color: white;
+	position: absolute;
+	top: 290px;
+	left: 740px;
+}
+
+.img-bot-bigbox-top {
+	width: 200px;
+	height: 42px;
+	background-color: white;
+	position: absolute;
+	top: 14px;
+	left: 10px;
+	line-height: 42px;
+	vertical-align: bottom;
+	border-bottom: 1px gainsboro dashed;
+}
+
+.img-bot-bigbox-bot {
+	width: 200px;
+	height: 24px;
+	position: absolute;
+	background-color: white;
+	left: 10px;
+	top: 58px;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.foot {
+	width: 980px;
+	height: 192px;
+	background-color: white;
+	position: absolute;
+	top: 594px;
+	left: 162px;
+	z-index: 0.6;
+}
+
+.foot-left {
+	width: 318px;
+	height: 192px;
+	/*background-color: pink;*/
+	position: absolute;
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	border-right: 1px solid gainsboro;
+}
+
+.foot-rg {
+	width: 660px;
+	height: 192px;
+	/*background-color: blue;*/
+	position: absolute;
+	left: 320px;
+	z-index: 1;
+}
+
+.txt-left {
+	padding-top: 26px;
+	padding-left: 22px;
+}
+
+.txt-left a {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+
+.foot-left li {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+
+.foot-rg dt {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+
+.rg-img {
+	width: 560px;
+	height: 96px;
+	background-color: white;
+	position: absolute;
+	top: 64px;
+	left: 50px;
+}
+
+.img-1 {
+	width: 50px;
+	height: 96px;
+	/*background: antiquewhite;*/
+	font-size: 12px;
+	float: left;
+	margin-right: 20px;
+}
+
+.img-rg1 {
+	position: absolute;
+	top: 70px;
+	left: 20px;
+}
+
+.img-rg2 {
+	position: absolute;
+	top: 70px;
+	left: 620px;
+}

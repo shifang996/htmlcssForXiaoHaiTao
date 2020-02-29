@@ -1,0 +1,35 @@
+ 【内网通】群组聊天消息通过内网传输，不经过外网服务器，保证您的信息安全，不受监控，请放心畅聊。
+2019-08-23 10:25:34
+夏海涛
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		div{
+			width: 200px;
+			height: 200px;
+			border:1px solid red;
+			margin:0px auto;
+			margin-top: 100px;
+			/*background: blue;*/
+			/*透明度属性*/
+			/*opacity: 0.5;*/
+			background-image: url(flower5.jpg);
+			/*box-shadow: x轴 y轴 阴影模糊大小 颜色 里边/外边*/
+			/*四边都有阴影*/
+			/*box-shadow: 0px 0px 20px green ; */
+			 /*box-shadow:  10px 10px 10px red ;*/
+   
+		  
+		    /*box-shadow: -10px -10px 20px  green ; */
+             /*左边阴影*/
+/*             box-shadow: -10px 0px 10px red, 10px 0px 10px green, 0px 10px 10px blue,0px -10px 10px yellow;*/
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>

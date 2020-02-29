@@ -1,0 +1,229 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	font-family: "微软雅黑";
+}
+.content{
+	margin: 0 auto;
+	width: 143rem;
+	height: 81rem;
+	/*background-color: oldlace;*/
+	position: relative;
+}
+.nav{
+	width: 143rem;
+	height: 4rem;
+	/*background-color: palegreen;*/
+	display: flex;
+	border-bottom: 1px solid #e5ebed;
+}
+.nav-left{
+	flex: 4;
+	/*background: lavender;*/
+}
+.nav-left img{
+	width: 15rem;
+	height: 4rem;
+}
+.nav-center{
+	flex: 7;
+	/*background: orange;*/
+}
+.nav-spec a{
+	color: orange;
+}
+.nav-center ul{
+	display: flex;
+	line-height: 4rem;
+	text-align: right;
+}
+.nav-center li{
+	padding-right: 4rem;
+}
+.nav-center select{
+	border:none;
+}
+.nav-rg{
+	flex: 2;
+	/*background-color: khaki;*/
+	text-align: right;
+	line-height: 4rem;
+}
+.nav-rg-bg{
+	background-color: blue;
+	color: white;
+}
+.nav-rg input{
+	width: 7rem;
+	height: 2rem;
+	background: white;
+	border-radius: 0rem;
+	border-radius: 5px;
+}
+.middle{
+	width: 120rem;
+	height: 75rem;
+	/*background-color: burlywood;*/
+	margin: 1rem auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.mid-box1{
+	width: 28rem;
+	height: 36rem;
+	background: linear-gradient(to top,#068ffe ,#47c9ff);
+	/*background-color: #0e97ff;*/
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: white;
+	border-radius: 3px;
+}
+.mid-box2{
+	width: 28rem;
+	height: 36rem;
+	background: linear-gradient(to top,#0f8cff ,#849aff);
+	/*background-color: #0e97ff;*/
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: white;
+	border-radius: 3px;
+}
+.mid-box3{
+	width: 28rem;
+	height: 36rem;
+	background: linear-gradient(to top,#0690fe ,#4bdaff);
+	/*background-color: #0e97ff;*/
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: white;
+	border-radius: 3px;
+}
+.mid-box4{
+	width: 28rem;
+	height: 36rem;
+	background: linear-gradient(to top,#1a8cff ,#fa99fa);
+	/*background-color: #0e97ff;*/
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: white;
+	border-radius: 3px;
+}
+.mid-box5{
+	width: 28rem;
+	height: 36rem;
+	background: linear-gradient(to top,#028dfd ,#38f1a8);
+	/*background-color: #0e97ff;*/
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: white;
+	border-radius: 3px;
+}
+.mid-box6{
+	width: 28rem;
+	height: 36rem;
+	background: linear-gradient(to top,#068ff8 ,#70fd65);
+	/*background-color: #0e97ff;*/
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: white;
+	border-radius: 3px;
+}
+.mid-box7{
+	width: 28rem;
+	height: 36rem;
+	background: linear-gradient(to top,#0689ff ,#9d7aff);
+	/*background-color: #0e97ff;*/
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: white;
+	border-radius: 3px;
+}
+.mid-box8{
+	width: 28rem;
+	height: 36rem;
+	background: linear-gradient(to top,#008efe ,#008efe);
+	/*background-color: #0e97ff;*/
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: white;
+	border-radius: 3px;
+}
+.mid-box-top{
+	/*background-color: oldlace;*/
+	font-size: 2rem;
+	font-family: "微软雅黑";
+	margin-top: 4rem;
+	/*color: white;*/
+}
+.mid-box-top a{
+	color: white;
+}
+.mid-box-img{
+	/*background: pink;*/
+
+}
+.mid-box-txt1{
+	width: 19rem;
+	height: 4rem;
+	text-align: left;
+	margin: 0 auto;
+	/*background: gainsboro;*/
+	color: white;
+}
+.mid-box-txt1 a{
+	color: white;
+}
+.mid-box-txt2 input{
+	width: 16rem;
+	height: 3rem;
+	background: #3ec0fe;
+	margin-top: 1rem;
+	color: white;
+	border: 1px solid white; 
+	border-radius: 3px;
+}
+.asides{
+	width: 5rem;
+	height:34rem;
+	background: white;
+	/*border: 1px solid;*/
+	position: absolute;
+	top: 44rem;
+	right: 0rem;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.asides1,.asides2,.asides3,.asides4,.asides5,.asides6{
+	background-color: white;
+	box-shadow: 0px 0px 10px gainsboro;
+	height:5rem;
+	/*border: 1px solid;*/
+	border-radius: 3px;
+	text-align: center;
+}
+.asides1 dt,.asides2 dt,.asides3 dt,.asides4 dt,.asides5 dt,.asides6 dt{
+	margin-top: 1rem;
+}

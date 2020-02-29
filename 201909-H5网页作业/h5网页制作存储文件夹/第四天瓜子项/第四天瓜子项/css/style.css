@@ -1,0 +1,91 @@
+@charset "utf-8";
+* {
+	text-align: left;
+	font-size: 1em;
+}
+
+.top1 {
+	text-align: right;
+}
+
+.top2 {
+	font-size: 25px;
+}
+
+.h1 {
+	text-align: center;
+	color: #22ac38;
+	font-size: 2em;
+	font-family: "楷体";
+}
+
+.h2 {
+	text-align: center;
+}
+
+.h2-s {
+	font-style: italic;
+	font-weight: bold;
+	color: black;
+	a:link {
+		color: black;
+	}
+	a:visited {
+		color: green;
+	}
+	a:hover {
+		color: blue;
+	}
+	a:active {
+		color: yellow;
+	}
+}
+
+.tab {
+	width: 290px;
+	height: 300px;
+}
+
+.txt1 {
+	text-align: left;
+	font-family: "微软雅黑";
+}
+
+.txt2 {
+	text-align: left;
+	color: #a5abb2;
+}
+
+span {
+	font-size: 23px;
+	color: red;
+}
+
+.table01 {
+	font-size:16px;
+	font-weight: lighter;
+	line-height: 40px;
+}
+.q{
+	font-weight: 600;
+}
+
+td ul .1 {
+	font-weight: bold;
+	font-weight: 20px;
+}
+
+.bottom {
+	color: green;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.bottom2 {
+	font-size: 17px;
+}
+
+.ziti {
+	color: #a5abb2;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>position</title>
+		<style type="text/css">
+			.grandfather {
+				width: 500px;
+				height: 500px;
+				background-color: khaki;
+				position: absolute;
+				/*top: 20px;*/
+				left: 500px;
+			}
+			
+			.father {
+				width: 400px;
+				height: 400px;
+				background-color: navajowhite;
+				position: absolute;
+				left: 500px;
+			}
+			
+			.son1,.son2 {
+				width: 200px;
+				height: 200px;
+				background-color: red;
+				position: absolute;
+				left: 500px;
+				/*z-index: 1;*/
+			}
+			.son2{
+				background-color: orange;
+				left: 710px;
+
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="grandfather">
+		</div>
+		<div class="father">
+		</div>
+		<div class="son1">
+		</div>
+		<div class="son2">
+		</div>
+
+	</body>
+
+</html>

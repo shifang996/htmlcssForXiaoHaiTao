@@ -1,0 +1,44 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0 auto;
+	text-align: left;
+	/*vertical-align: middle;*/
+}
+
+fieldset {
+	width: 700px;
+	height: 554px;
+	border: 1px black dashed;
+}
+
+.table {
+	width: 672px;
+	height: 46px;
+	/*background-color: lavender;*/
+	border-bottom: 1px solid gray;
+}
+
+.smalltable {
+	width: 162px;
+	height: 46px;
+	/*background-color: navajowhite;*/
+	float: left;
+	text-align: right;
+	line-height: 46px;
+}
+
+.smalltable-2 {
+	display: block;
+	width: 146px;
+	height: 20px;
+	/*background-color: lavenderblush;*/
+	float: left;
+	margin-top: 13px;
+}
+
+.smalltable-3 {
+	margin-top: 16px;
+	/*text-align: left;
+	line-height: 46px;*/
+}

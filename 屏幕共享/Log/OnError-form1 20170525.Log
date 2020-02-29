@@ -1,0 +1,48 @@
+2017-05-25 10:04:10: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 Yinrg.Net.Sockets.SocketClient.s91nev5CPITrFiQpWCt(Object , Object )
+   在 Yinrg.Net.Sockets.SocketClient.GsnOTWuuJ(IAsyncResult  )
+2017-05-25 16:01:00: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 Yinrg.Net.Sockets.SocketClient.s91nev5CPITrFiQpWCt(Object , Object )
+   在 Yinrg.Net.Sockets.SocketClient.GsnOTWuuJ(IAsyncResult  )
+2017-05-25 16:01:00: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 Yinrg.Net.Sockets.SocketClient.s91nev5CPITrFiQpWCt(Object , Object )
+   在 Yinrg.Net.Sockets.SocketClient.GsnOTWuuJ(IAsyncResult  )
+2017-05-25 16:01:00: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 Yinrg.Net.Sockets.SocketClient.s91nev5CPITrFiQpWCt(Object , Object )
+   在 Yinrg.Net.Sockets.SocketClient.GsnOTWuuJ(IAsyncResult  )
+2017-05-25 16:01:00: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 Yinrg.Net.Sockets.SocketClient.s91nev5CPITrFiQpWCt(Object , Object )
+   在 Yinrg.Net.Sockets.SocketClient.GsnOTWuuJ(IAsyncResult  )
+2017-05-25 16:01:01: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 Yinrg.Net.Sockets.SocketClient.s91nev5CPITrFiQpWCt(Object , Object )
+   在 Yinrg.Net.Sockets.SocketClient.GsnOTWuuJ(IAsyncResult  )
+2017-05-25 16:02:27: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 Yinrg.Net.Sockets.SocketClient.s91nev5CPITrFiQpWCt(Object , Object )
+   在 Yinrg.Net.Sockets.SocketClient.GsnOTWuuJ(IAsyncResult  )
+2017-05-25 16:02:27: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 Yinrg.Net.Sockets.SocketClient.s91nev5CPITrFiQpWCt(Object , Object )
+   在 Yinrg.Net.Sockets.SocketClient.GsnOTWuuJ(IAsyncResult  )
+2017-05-25 16:02:27: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 Yinrg.Net.Sockets.SocketClient.s91nev5CPITrFiQpWCt(Object , Object )
+   在 Yinrg.Net.Sockets.SocketClient.GsnOTWuuJ(IAsyncResult  )
+2017-05-25 16:02:27: 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   在 System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   在 Yinrg.Net.Sockets.SocketClient.s91nev5CPITrFiQpWCt(Object , Object )
+   在 Yinrg.Net.Sockets.SocketClient.GsnOTWuuJ(IAsyncResult  )

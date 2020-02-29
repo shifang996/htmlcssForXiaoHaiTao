@@ -1,0 +1,92 @@
+@charset "utf-8";
+*{
+	padding:  0;
+	margin: 0 auto;
+}
+
+.nav{
+	width: 1026px;
+	height: 32px;
+	background-color: #237cd8;
+}
+.nav a:link{
+	color: white;
+}
+.nav a:visited{
+	color: blue;
+}
+.nav a:hover{
+	color: cadetblue;
+}
+.nav a:active{
+	color: yellow;
+}
+.nav li{
+	list-style-type: none;
+	text-align: center;
+	
+}
+ul  li a{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	float: left;
+	line-height: 32px;
+	
+	width: 101px;
+	border-left: 1px solid white;
+}
+.class{
+	width: 1010px;
+	height: 360px;
+	/*background-color: lemonchiffon;*/
+}
+.left{
+	width: 400px;
+	height: 356px;
+	/*background-color: palegoldenrod;*/
+	float: left;
+}
+.right{
+	width: 598px;
+	height:356px ;
+	/*background-color: antiquewhite;*/
+	float: right;
+	padding:1px ;
+	margin: auto;
+}
+.top{
+	width: 399px;
+	height:160px;
+	/*background-color: chartreuse;*/
+	line-height: 32px;
+}
+.top dt a{
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+}
+.top dl dd a{
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+}
+.bottom{
+	width: 399px;
+	height:160px;
+	/*background-color: lightblue;*/
+	line-height: 32px;
+}
+.bottom dt a{
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+}
+.bottom dl dd a{
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+}
+.top dl a span,.bottom  dl a span{
+	color: #7ca7c9;
+}

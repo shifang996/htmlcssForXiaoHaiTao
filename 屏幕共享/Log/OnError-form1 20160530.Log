@@ -1,0 +1,18 @@
+2016-05-30 10:36:13: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.   at System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult)
+   at Yinrg.Net.Sockets.SocketClient.wQh1k8mXtn4yGgQ8LDh(Object , Object )
+   at Yinrg.Net.Sockets.SocketClient.SendByteCallBack(IAsyncResult ar)
+2016-05-30 10:37:05: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.   at System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndSend(IAsyncResult asyncResult)
+   at Yinrg.Net.Sockets.SocketClient.wQh1k8mXtn4yGgQ8LDh(Object , Object )
+   at Yinrg.Net.Sockets.SocketClient.SendByteCallBack(IAsyncResult ar)
+2016-05-30 12:03:20: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Yinrg.Net.Sockets.SocketClient.s91nev5CPITrFiQpWCt(Object , Object )
+   at Yinrg.Net.Sockets.SocketClient.GsnOTWuuJ(IAsyncResult  )
+2016-05-30 17:17:48: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Yinrg.Net.Sockets.SocketClient.s91nev5CPITrFiQpWCt(Object , Object )
+   at Yinrg.Net.Sockets.SocketClient.GsnOTWuuJ(IAsyncResult  )

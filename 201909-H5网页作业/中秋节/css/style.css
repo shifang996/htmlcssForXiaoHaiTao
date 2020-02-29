@@ -1,0 +1,228 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0 auto;
+	vertical-align: middle;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	font-family: "微软雅黑";
+}
+
+.content {
+	width: 1408px;
+	height: 726px;
+	/*background-color: oldlace;*/
+	position: relative;
+}
+
+.top {
+	width: 1408px;
+	height: 94px;
+}
+
+.search {
+	width: 1408px;
+	height: 126px;
+	background-color: white;
+	position: relative;
+}
+
+.search_jx-img {
+	position: absolute;
+	top: 30px;
+	left: 114px;
+}
+
+.search_blankimg {
+	position: absolute;
+	top: 36px;
+	left: 260px;
+}
+
+.sea-text {
+	width: 450px;
+	height: 32px;
+	border: 3px solid #dd0000;
+	position: absolute;
+	top: 33px;
+	left: 392px;
+}
+
+.sea-submit {
+	width: 88px;
+	height: 38px;
+	background-color: #dd0000;
+	border: none;
+	color: white;
+	position: absolute;
+	top: 33px;
+	left: 843px;
+	font-size: 16px;
+}
+
+.sea-a1 {
+	position: absolute;
+	top: 32px;
+	left: 950px;
+}
+
+.sea-a2 {
+	position: absolute;
+	top: 30px;
+	left: 1070px;
+}
+
+.sea-a3 {
+	position: absolute;
+	top: 30px;
+	left: 1190px;
+}
+
+.sea-a4 {
+	position: absolute;
+	top: 36px;
+	left: 1266px;
+}
+
+.sea-nav {
+	width: 540px;
+	height: 28px;
+	/*background-color: lawngreen;*/
+	position: absolute;
+	top: 70px;
+	left: 392px;
+}
+
+.sea-nav li {
+	float: left;
+	font-size: 11px;
+	line-height: 28px;
+	padding-right: 10px;
+	color: #999999;
+}
+
+.sea-nav a {
+	color: #999999;
+}
+
+nav {
+	width: 1408px;
+	height: 34px;
+	background-color: #a60000;
+	position: relative;
+}
+
+.small-nav {
+	width: 792px;
+	height: 34px;
+	/*background-color: pink;*/
+	position: absolute;
+	left: 306px;
+}
+
+.small-nav li {
+	float: left;
+	padding-right: 22px;
+	padding-left: 20px;
+	font-size: 14px;
+	line-height: 34px;
+}
+.small-nav a{
+	color: white;
+	font-weight: bold;
+}
+.small-nav-rg {
+	width: 126px;
+	height: 34px;
+	/*background-color: orchid;*/
+	position: absolute;
+	left: 1194px;
+	line-height: 34px;
+}
+
+.small-nav-rg a {
+	color: white;
+	font-size: 16px;
+}
+
+.textarea {
+	width: 1408px;
+	height: 470px;
+	background-color: #ffaf00;
+	position: relative;
+}
+
+.textarea-img img {
+	position: absolute;
+	left: 304px;
+	
+}
+
+.textarea-rg {
+	width: 185px;
+	height: 474px;
+	background-color: palegoldenrod;
+	position: absolute;
+	left: 1124px;
+
+}
+.textarea-rg-img1{
+	border-bottom: 1px solid #ffaf00;	
+}
+.textarea-left {
+	width: 190px;
+	height: 506px;
+	background-color: lightcyan;
+	position: absolute;
+	top: 220px;
+	left: 116px;
+}
+
+.textarea-left_top {
+	width: 190px;
+	height: 34px;
+	background-color: #de0000;
+	text-align: center;
+	line-height: 34px;
+	color: white;
+	
+}
+
+.textarea-left_top a {
+	color: white;
+	font-weight: bold;
+}
+
+.textarea-left_small {
+	width: 190px;
+	height: 82px;
+	background-color: white;
+	border-bottom: 1px solid gainsboro;
+}
+
+.textarea-left_small dt,
+.textarea-left_small-1 dt {
+	font-size: 14px;
+	padding-bottom: 10px;
+	padding-top: 8px;
+	font-weight: bold;
+}
+
+.textarea-left_small li,
+.textarea-left_small-1 li {
+	float: left;
+	font-size: 11px;
+	padding-right: 12px;
+}
+
+.pa1 {
+	padding-left: 18px;
+}
+
+.textarea-left_small-1 {
+	width: 190px;
+	height: 60px;
+	background-color: white;
+	border-bottom: 1px solid orange;
+}

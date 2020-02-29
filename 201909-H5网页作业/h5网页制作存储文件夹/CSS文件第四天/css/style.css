@@ -1,0 +1,35 @@
+*{
+	margin: 60px;
+	font-size: 65px;
+	background: gray;
+	color: aliceblue;
+}
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: green;
+}
+
+a:hover {
+	color: blue;
+}
+
+a:active {
+	color: yellow;
+	background: gray;
+	font-size: 100px;
+}
+
+a:active {
+	color: yellow;
+}
+.top li,.top2{
+	color: orange;
+	font-size: 80px;
+}
+.top li a{
+	color:crimson;
+}
+.top,.top2

@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*
+			 * 接触过的动画 flash动画  js动画
+			 * CSS3添加了动画的属性animation,使得在页面中创建动画更加简单。
+			 * 动画：从一种状态到另一种状态的演变，动画可以自动执行
+			 * 动画的实现需要两个必要条件：
+			 * 		动画的名称  animation-name
+			 * 		动画执行的时间  animation-duration
+			 * 动画的创建步骤：
+			 * 		1. 就是针对要实现动画的元素设定两个必要条件
+			 * 		2. 遵循@keyframes name规则，利用from...to或者百分比实现过渡的过程
+			 * 动画的其它属性介绍：
+			 * 		动画的延迟过渡时间  animation-delay
+			 * 		动画的作用曲线（播放速率）animation-timing-function
+			 * 		动画的播放次数  animation-iteration-count    无限次播放的属性值为 infinite
+			 * 		动画的播放顺序 animation-direction  
+			 * 			播放顺序默认是正向播放（1，2，3，4，5，1，2，3，4，5，1...）
+			 * 			属性值reverse，代表反向播放(5，4，3，2，1，5，4，3，2，1...)
+			 * 			属性值alternate，代表奇数次正向播放，偶数次反向播放
+			 * 			属性值alternate-reverse，代表奇数次反向播放，偶数次正向播放
+			 * 动画的属性的简写方式：
+			 * 		animation:name duration delay linear iteration-count direction;
+			 * */
+			.circle{
+				height: 100px;
+				width: 100px;
+				margin: 200px auto;
+				border-top: solid 10px red;
+				border-right: dotted 10px orange;
+				border-bottom: double 10px yellow;
+				border-left: dashed 10px yellowgreen;
+				border-radius: 50%;
+				
+				/*transition: all 5s;*/
+				
+				animation: myCircle 5s 2s linear alternate infinite;
+				/*animation-iteration-count: infinite; 设置动画的无限次播放*/
+				/*animation-direction: reverse;*/
+			}
+			
+			.circle:hover{
+				/*transform: rotate(1turn);*/
+				
+				-webkit-animation: myCircle 5s;
+				-moz-animation: myCircle 5s;
+				-ms-animation: myCircle 5s;
+				animation: myCircle 5s;
+			}
+			
+			@-webkit-keyframes myCircle{
+				from{transform: rotate(0);}
+				to{transform: rotate(5turn);}
+			}
+			
+			@-moz-keyframes myCircle{
+				from{transform: rotate(0);}
+				to{transform: rotate(5turn);}
+			}
+			
+			@-ms-keyframes myCircle{
+				from{transform: rotate(0);}
+				to{transform: rotate(5turn);}
+			}
+			
+			@keyframes myCircle{
+				from{transform: rotate(0);}
+				to{transform: rotate(5turn);}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="circle">
+			
+		</div>
+	</body>
+</html>

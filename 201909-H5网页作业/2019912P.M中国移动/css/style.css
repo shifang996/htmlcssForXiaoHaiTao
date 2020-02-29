@@ -1,0 +1,162 @@
+*{
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+	/* font-family: 微软雅黑; */
+}
+html{
+	font-size: 1rem;
+}
+.container,
+.banner,
+.nav,
+.center-meau,
+.footer,
+.footer-top,
+.footer-meau{
+	box-sizing: border-box;
+	overflow: hidden;
+}
+img{
+	display: block;
+}
+.container{
+	width: 100%;
+	box-sizing: border-box;
+}
+.banner{
+	width:100%;
+}
+.banner img{
+	display: block;
+	width:100%;
+}
+.nav{
+	width: 100%;
+	height: 3.8rem;
+	/* background-color: pink; */
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid darkgray;
+}
+.nav::after{
+	overflow: hidden;
+	display: block;
+	height: 0;
+	content: '';
+	visibility: hidden;
+	clear: both;
+}
+.nav-left{
+	flex: 1.5;
+	/* background-color: yellow; */
+}
+.nav-left p{
+	font-size: 1.1rem;
+	line-height: 3.8rem;
+}
+.nav-rg{
+	flex: 1;
+	border-left: 1px solid;
+}
+.nav-rg img{
+	display: block;
+	width: 1.6rem;
+	height: 1.6rem;
+	float: left;
+	padding: 1.2rem 2rem;
+	padding-right:0.4rem;
+}
+.nav-rg span{
+	display: inline-block;
+	margin-top: 1.2rem;
+	font-weight: bold;
+}
+.center-meau{
+	width: 100%;
+	height: 16rem;
+	background-color: pink;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: roe;
+	justify-content: space-around;
+}
+.center-meau figure{
+	display: block;
+	width: 18%;
+	height: 40%;
+	text-align: center;
+	padding-top: 0.6rem;
+	/* background-color: yellow; */
+} 
+figure img{
+	width: 80%;
+	padding-left: 0.5rem;
+	padding-bottom: 0.3rem;
+}
+.center-meau figcaption{
+	/* width: 100%; */
+	font-size: 1rem;
+	font-weight: normal;
+}
+.footer{
+	margin-top: 0.6rem;
+	width: 100%;
+	height: 13rem;
+	background-color: yellow;
+	
+}
+.footer-top{
+	height: 3.6rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+.footer-top-left{
+	flex: 1.5;
+	background-color: pink;
+}
+.footer-top-left figure{
+	line-height: 3.6rem;
+	font-weight: bold;
+}
+.footer-top-rg{
+	flex: 1;
+	background-color: navajowhite;
+}
+.footer-top-rg span{
+	line-height: 3.6rem;
+}
+.footer-meau{
+	width: 100%;
+	height: 100%;
+	background-color: cyan;
+	display: flex;
+	/* flex-wrap: wrap; */
+	justify-content: space-between;
+}
+.meau-box img{
+	width: 90%;
+	height: 70%;
+	margin: 0 auto;
+}
+.fixed{
+	position: sticky;
+	bottom: 0;
+	width: 100%;
+	height: 5rem;
+	background-color: paleturquoise;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.fixed img{
+	width: 2.4rem;
+	height: 2rem;
+	display: block;
+	margin-top: 0.6rem;
+}
+.fixed figure{
+	text-align: center;
+}

@@ -1,0 +1,5 @@
+2018-10-12 15:18:21: A generic error occurred in GDI+.   at System.Drawing.Graphics.CheckErrorStatus(Int32 status)
+   at System.Drawing.Graphics.DrawImage(Image image, Int32 x, Int32 y)
+   at Formcon.j8jVoHKOKVpBjVo5Z0m(Object , Object , Int32 , Int32 )
+   at Formcon.calldoreceivedata(Byte[] data)
+   at Formcon.checkimgs2dodata()

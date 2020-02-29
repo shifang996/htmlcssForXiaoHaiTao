@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>考试弹窗提醒</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #btnBox,
+      #tip {
+        text-align: center;
+      }
+      #tip {
+        color: rgb(45, 197, 7);
+        font-weight: bold;
+        font-size: 22px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <marquee
+      id="tip"
+      style="display:none;"
+      behavior="scroll"
+      direction="left"
+      scrollAmount="2"
+      width="500"
+    ></marquee>
+    <div id="btnBox">
+      <input type="text" id="name" placeholder="请输入姓名" />
+      <input type="text" id="kaoshima" placeholder="请输入考试码" />
+      <button id="btn">开始考试</button>
+    </div>
+    <script>
+      const nameInput = document.getElementById("name");
+      const kaoshimaInput = document.getElementById("kaoshima");
+      const btn = document.getElementById("btn");
+      const tip = document.getElementById("tip");
+      const btnBox = document.getElementById("btnBox");
+
+      btn.onclick = function() {
+        const name = nameInput.value;
+        const kaoshima = kaoshimaInput.value;
+        if (name.length === 0 || kaoshima.length === 0) return;
+        tip.style.display = "block";
+        btnBox.style.display = "none";
+        time();
+      };
+
+      function time() {
+        const name = nameInput.value;
+        const kaoshima = kaoshimaInput.value;
+        tip.innerHTML =
+          "姓名:" +
+          name +
+          ",考试码:" +
+          kaoshima +
+          ",考试时间:" +
+          new Date().toLocaleDateString() +
+          " " +
+          new Date().toLocaleTimeString();
+        setTimeout(time, 1000);
+      }
+    </script>
+  </body>
+</html>

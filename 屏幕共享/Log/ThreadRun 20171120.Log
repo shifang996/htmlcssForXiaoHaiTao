@@ -1,0 +1,8 @@
+2017-11-20 13:33:00: 向一个无法连接的网络尝试了一个套接字操作。 192.168.43.132:8990   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at server.Form1.YM66krrC3L15NuAplTo(Object , Object )
+   at server.Form1.drS3X35F3F(Object  )
+2017-11-20 13:33:00: 向一个无法连接的网络尝试了一个套接字操作。 192.168.43.235:8990   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   at server.Form1.YM66krrC3L15NuAplTo(Object , Object )
+   at server.Form1.drS3X35F3F(Object  )

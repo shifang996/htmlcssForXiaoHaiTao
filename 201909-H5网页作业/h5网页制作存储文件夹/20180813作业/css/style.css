@@ -1,0 +1,164 @@
+@charset "utf-8";
+* {
+	margin: 0 auto;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.bigbox {
+	width: 1000px;
+	height: 900px;
+	/*background-color: pink;*/
+}
+
+.topbox {
+	text-align: right;
+}
+
+.toptxt {
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+}
+
+.toptxt-1 {
+	text-decoration: none;
+	color: black;
+	margin: 10px;
+	font-size: 28px;
+	font-style: italic;
+}
+
+.searchs {
+	width: 290px;
+	margin: 0 700px;
+}
+
+.search {
+	width: 230px;
+	height: 36px;
+	/*background-color: yellow;*/
+	padding: 0;
+	margin: 0px px;
+	border: 1px green solid;
+}
+
+.search-1 {
+	width: 50px;
+	height: 36px;
+	font-size: 20px;
+	margin: 2px 1px;
+	padding: 0;
+	border: 1px green solid;
+}
+
+.leader-1 {
+	width: 200px;
+	height: 30px;
+	border-left: 3px solid green;
+	margin: 6px;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.leader-1 span {
+	color: gray;
+}
+
+.table {
+	width: 980px;
+	height: 124px;
+	margin: 6px;
+	border: 1px black solid;
+}
+.table-1{
+	height: 40px;
+	border-bottom: solid 1px gray;
+	line-height: 40px;
+}
+.table-1 span{
+	padding:12px;
+	border-right: solid 1px;
+}
+.table-2{
+	height: 40px;
+	border-bottom: solid 1px gray;
+	line-height: 40px;
+}
+.table-2 span{
+	padding: 12px;
+	border-right: solid 1px;
+}
+.table-3{
+	height: 40px;
+	line-height: 40px;
+}
+.table-3 span{
+		padding:12px;
+		border-right: solid 1px;
+}
+.buxian{
+	padding: 2px;
+	background-color: #22ac38;
+	margin: 12px;
+}
+.ziti{
+	padding: 2px;
+	margin: 12px;
+	background-color: #f0f0f0;
+	text-decoration: none;
+	color: black;
+}
+.table-leader{
+	width:1000px;
+	height: 40px;
+	/*background-color: yellow;*/
+	margin: 0px px ;
+	text-align: right;
+}
+.table-leader span{
+	padding: 5px;
+	line-height: 40px;
+}
+.green{
+	margin: 1em;
+	color: #22ac38;
+	text-decoration: none;
+	
+}
+.green1{
+	text-decoration: none;
+	margin: 1em;
+	color: black;
+}
+.hangxian{
+	border-style: dotted;
+	border-width: 1px;
+	border-color: #22ac38;
+}
+.photo1{
+	width: 290px;
+	height: 300px;
+	/*background-color: yellow;*/
+	border: solid 1px gray;
+	margin: 10px 0px;
+	line-height: 25px;
+}
+.d1{
+	font-size:16px;
+	font-weight:normal;
+	font-family: "微软雅黑";
+}
+.d2{
+	font-size: 14px;
+	color: gray;
+}
+.d3{
+	font-size: 18px;
+	color: red;font-family: "微软雅黑";
+}
+.d3 span{
+	color: gray;
+	font-size: 10px;
+	text-decoration: line-through;
+}

@@ -1,0 +1,86 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0 auto;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	vertical-align: middle;
+}
+
+.content {
+	width: 1902px;
+	height: 2192px;
+	background-color: khaki;
+	position: relative;
+}
+
+.nav {
+	width: 1902px;
+	height: 60px;
+	background-color: oldlace;
+}
+
+.photo {
+	width: 1200px;
+	height: 600px;
+	background-color: lavender;
+	margin-top: 30px;
+}
+
+.phone {
+	width: 1200px;
+	height: 512px;
+	background-color: lemonchiffon;
+	margin-top: 20px;
+	position: relative;
+}
+
+.phone-spec-a {
+	width: 580px;
+	position: absolute;
+	left: 646px;
+	top: 100px;
+}
+
+.phone-spec-b {
+	position: absolute;
+	top: 150px;
+	left: 646px;
+}
+
+.phone-text {
+	width: 328px;
+	height: 84px;
+	background-color: orange;
+	position: absolute;
+	top: 198px;
+	left: 646px;
+}
+
+.rongyao-1 {
+	width: 1200px;
+	height: 448px;
+	background-color: orange;
+}
+.rongyao-1_top{
+	width: 1200px;
+	height: 78px;
+	background-color: orchid;
+	font-size: 23px;
+	line-height: 78px;
+}
+
+
+.rongyao-2 {
+	width: 1200px;
+	height: 394px;
+	background-color: palegoldenrod;
+}
+
+.footer {
+	width: 1200px;
+	height: 100px;
+	margin-top: 28px;
+	background-color: olive;
+}

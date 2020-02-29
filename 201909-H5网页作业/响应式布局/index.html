@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>响应式布局</title>
+		<style type="text/css">
+			
+			.p{
+				width:70rem;
+				height: 60rem;
+				background-color: oldlace;
+				/*margin-top: 30px;*/
+				display: flex;
+				flex-wrap: wrap;
+				flex-direction: row;
+				justify-content: space-between;
+				
+			}
+			.p img{
+				background-color: palegoldenrod;
+			}
+			@media only screen and (min-width:200px) and (max-width: 1140px) {
+				img{
+					background: salc(100%-30px)/3;
+				}
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="p">
+			<div><img src="img/ri_img2.jpg"/></div>
+			<div><img src="img/ri_img2.jpg"/></div>
+			<div><img src="img/ri_img2.jpg"/></div>
+			<div><img src="img/ri_img2.jpg"/></div>
+			<div><img src="img/ri_img2.jpg"/></div>
+			<div><img src="img/ri_img2.jpg"/></div>
+			<div><img src="img/ri_img2.jpg"/></div>
+			<div><img src="img/ri_img2.jpg"/></div>
+
+		</div>
+	</body>
+
+</html>

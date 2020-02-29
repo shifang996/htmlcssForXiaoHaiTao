@@ -1,0 +1,154 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0 auto;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	vertical-align: middle;
+	font-family: "微软雅黑";
+}
+
+.content {
+	width: 1428px;
+	height: 740px;
+	/*background: palegoldenrod;*/
+	position: relative;
+}
+
+.asides {
+	width: 62px;
+	height: 260px;
+	background: #404040;
+	position: absolute;
+	right: 16px;
+	bottom: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid gainsboro;
+}
+
+.as-box {
+	width: 62px;
+	height: 65px;
+	border-bottom: 1px solid gainsboro;
+	flex: 1;
+	/*background-color: white;*/
+	text-align: center;
+}
+
+.as-box:hover {
+	transform: scale(1.1, 1.1);
+	border: 1px solid gainsboro;
+}
+
+.as-box img {
+	padding-top: 12px;
+	padding-bottom: 8px;
+}
+
+.as-box dd {
+	font-size: 12px;
+	color: white;
+}
+
+.head {
+	width: 1428px;
+	height: 40px;
+	/*background: palegreen;*/
+	border-bottom: 1px solid gainsboro;
+}
+
+.head-center {
+	width: 1200px;
+	height: 40px;
+	/*background: pink;*/
+}
+
+.head-center li {
+	float: left;
+	line-height: 40px;
+	font-size: 12px;
+	padding-left: 94px;
+	vertical-align: baseline;
+}
+
+.img {
+	width: 1200px;
+	height: 480px;
+	/*background: navajowhite;*/
+	position: relative;
+}
+
+.img-left {
+	width: 222px;
+	height: 480px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.img-left li {
+	color: white;
+	font-size: 14px;
+	line-height: 56px;
+	padding-left: 28px;
+	/*font-weight: bold;*/
+}
+
+.img-left span {
+	color: white;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.img-lunbo {
+	position: absolute;
+	bottom: 10px;
+	left: 624px;
+}
+
+.footer {
+	width: 1200px;
+	height: 204px;
+	/*background: tan;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border: 1px solid gainsboro;
+}
+
+.footer-box {
+	width: 300px;
+	height: 204px;
+	background: white;
+	border-right: 1px solid gainsboro;
+	text-align: center;
+	flex: 1;
+	margin-top: 5px;
+}
+
+.footer-box :hover {
+	transform: translateY(-5px);
+	/* border: 1px solid gainsboro; */
+}
+
+.as-spec {
+	width: 662px;
+	height: 480px;
+	background: white;
+	opacity: 1;
+	display: none;
+}
+
+.img-left li:hover .as-spec {
+	display: block;
+	background-color: white;
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	left: 223px;
+}

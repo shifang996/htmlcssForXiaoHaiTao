@@ -1,0 +1,220 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0 auto;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	vertical-align: middle;
+	font-family: "微软雅黑";
+}
+.content{
+	width: 1478px;
+	height: 494px;
+	background-color: navajowhite;
+}
+.content-top{
+	width: 1478px;
+	height: 80px;
+	background-color: khaki;
+	position: relative;
+}
+.content-top_center_logo img{
+	width: 122px;
+	height: 48px;
+	position: absolute;
+	top: 16px;
+}
+.content-top_center_seach{
+	width: 500px;
+	height: 38px;
+	border: 2px solid #309bdf;
+	position: absolute;
+	top: 20px;
+	left: 300px;
+	background-image: url(../img/icon_03.png);
+	background-repeat: no-repeat;
+	background-position: 14px; 
+	line-height: 38px;
+}
+.content-top_center_seach-bot{
+	width: 91px;
+	height: 38px;
+	position: absolute;
+	top: 22px;
+	left: 713px;
+	background-color: #309bdf;
+	border:2px solid #309bdf;
+	font-size: 16px;
+	color: white;
+}
+.content-top_center{
+	width: 1236px;
+	height: 80px;
+	background-color: lawngreen;
+}
+.content-top_center_right{
+	width: 490px;
+	height: 48px;
+	/*background-color: darkgray;*/
+	float: right;
+	margin-top: 19px;
+}
+.content-top_center_right_a{
+	width: 120px;
+	height: 44px;
+	/*background-color: orchid;*/
+	font-size: 12px;
+	padding-top: 2px;
+	float: right;
+	padding-right: 38px;
+}
+.content-top_center_right_a img{
+	float: left;
+	padding-right: 8px;
+}
+.content-top_center_right_a dd{
+	padding-top: 5px;
+	color: #08b501;
+}
+.content-nav{
+	width: 1478px;
+	height: 40px;
+	background-color: blue;
+	color: white;
+}
+.content-nav_center{
+	width: 1236px;
+	height: 70px;
+	/*background-color: lightblue;*/
+}
+.content-nav_center li{
+	float: left;
+	padding-right: 7px;
+	padding-left: 7px;
+	font-size: 12px;
+	line-height: 40px;
+	/*border-right: 1px solid white;*/
+	border-right: 1px solid white;
+}
+.content-nav_center a{
+	color: white;
+	
+}
+.content-nav_center select,.content-nav_center option{
+	border: none;
+	background-color: blue;
+	color: white;
+	line-height: 40px;
+}
+.content-img{
+	width: 1478px;
+	height: 328px;
+	background-image: url(../img/banner.jpg);
+	background-size: 100% 100%;
+	position: relative;
+	margin-top: 5px;
+}
+.content-img_table{
+	width: 584px;
+	height: 304px;
+	background-color: navajowhite;
+	position: absolute;
+	top: 16px;
+	left: 126px;
+}
+
+.content-backimg_form {
+	width: 584px;
+	height: 304px;
+	background-color: palegoldenrod;
+	float: left;
+	/*margin-left: 130px;*/
+	/*margin-top: 18px;*/
+}
+
+.content-backimg_form_left {
+	width: 90px;
+	height: 300px;
+	background-color: blue;
+	float: left;
+}
+
+.content-backimg_form_left_spec {
+	width: 60px;
+	height: 42px;
+	background-color: white;
+	line-height: 42px;
+	text-align: center;
+	border-bottom: 1px gray dashed;
+}
+
+.content-backimg_form_left_normal {
+	width: 60px;
+	height: 42px;
+	background-color: cornflowerblue;
+	line-height: 42px;
+	text-align: center;
+	border-bottom: 1px gray dashed;
+}
+.content-backimg_form_right{
+	width:494px;
+	height:302px;
+	background-color: hotpink;
+	float: right;
+}
+.content-backimg_form_right_top{
+	height: 24px;
+	width: 450px;
+	background-color:antiquewhite;
+	margin-top: 19px;
+	margin-left: 20px;
+}
+.content-backimg_form_right_top li{
+	float: left;
+	font-size: 13px;
+	padding-right: 12px;
+	line-height: 24px;
+}
+.content-backimg_form_right_bottom{
+	width: 450px;
+	height: 258px;
+	background-color: navajowhite;
+	margin-left: 20px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.content-backimg_form_right_bottom_table{
+	width: 500px;
+	height: 30px;
+	background-color: lavender;
+	/*margin-top: 16px;*/
+}
+.content-backimg_form_right_bottom_table_left{
+	width: 150px;
+	height: 30px;
+	background-color: yellowgreen;
+	float: left;
+	text-align: right;
+	line-height: 30px;
+}
+.content-backimg_form_right_bottom_table_right{
+	width: 350px;
+	height: 30px;
+	background-color: hotpink;
+	float: right;
+}
+.content-backimg_form_right_bottom_table_left1{
+	width: 250px;
+	height: 30px;
+	background-color: yellowgreen;
+	float: left;
+	/*text-align: right;*/
+	line-height: 30px;
+}
+.content-backimg_form_right_bottom_table_right1{
+	width: 250px;
+	height: 30px;
+	background-color: hotpink;
+	float: right;
+}

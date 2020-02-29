@@ -1,0 +1,87 @@
+@charset "utf-8";
+* {
+	margin: auto;
+	padding: 0;
+}
+
+.bigbox {
+	width: 620px;
+	height: 740px;
+	/*background: yellow;*/
+
+}
+
+.topbox {
+	width: 615px;
+	height: 135px;
+	background: green;
+	background-image: url(../img/2018_02.jpg);
+}
+
+.leader {
+	width: 615px;
+	height: 26px;
+	background-color: #92bdf4;
+}
+
+.leader-txt {
+	text-decoration: none;
+	color: black;
+	line-height: 26px;
+}
+.bottom-box{
+	width: 615px;
+	height: 564px;
+	background: url(../img/2018_06.jpg) 380px 310px,url(../img/2018_10.jpg) #e8fbff  right bottom;
+	background-repeat: no-repeat;
+}
+.txt1{
+	font-size: 16px;
+	font-weight: bold;
+	color: #336975;
+	text-decoration: underline;
+	text-indent: 32px;
+}
+.txt2{
+	font-size: 20px;
+	font-weight: bold;
+	color: #d48a4d;
+	text-indent: 32px;
+}
+.txt1-1{
+	width: 414px;
+	height: 26px;
+}
+.txt2-1{
+	width: 372px;
+	height: 118px;
+	border: solid 0px black;
+}
+.bot{
+	color: #819fde;
+}
+.span{
+	color: black;
+	text-indent: 100px;
+}
+li{
+	line-height:24px;
+}
+.txt3-1{
+	width: 300px;
+	height: 104px;
+	border: solid 0px black;
+}
+/*.konghang{
+	text-indent: 100px;
+}*/
+.part{
+	text-indent:100px;
+}
+span{
+	color: #000000;
+}
+li{
+	list-style-image: url(../img/xxxxx.jpg);
+	list-style-position: outside;
+}

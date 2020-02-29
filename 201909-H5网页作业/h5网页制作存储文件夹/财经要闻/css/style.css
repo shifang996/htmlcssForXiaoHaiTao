@@ -1,0 +1,149 @@
+@charset "utf-8";
+* {
+	padding: 0;
+	margin: 0 auto;
+	text-decoration: none;
+	color: black;
+}
+
+.bigbox {
+	width: 976px;
+	height: 227px;
+	/*background-color: darkgrey;*/
+	/*margin-top: 16px;*/
+}
+
+.left {
+	width: 338px;
+	height: 35px;
+	/*background-color: navajowhite;*/
+	float: left;
+	margin-right: 26px;
+	margin-top: 16px;
+	border: 1px gray solid;
+	border-bottom: 2px solid blue;
+}
+
+.left font {
+	line-height: 35px;
+	font-size: 18px;
+}
+
+.center {
+	width: 338px;
+	height: 35px;
+	margin-top: 16px;
+	/*background-color: khaki;*/
+	float: left;
+	/*margin-right: 20px;*/
+	border: 1px solid gray;
+	border-left: none;
+}
+
+.center span {
+	line-height: 35px;
+	padding: 9px;
+	border: 1px solid gray;
+	border-top: 2px solid orangered;
+	border-bottom: none;
+	background-color: white;
+}
+
+.right {
+	width: 242px;
+	height: 35px;
+	margin-top: 16px;
+	/*background-color: slategray;*/
+	float: right;
+	border: 1px solid gray;
+	border: 1px solid gray;
+	border-left: none;
+}
+
+.right span {
+	line-height: 35px;
+	padding: 9px;
+	border: 1px solid gray;
+	border-top: 2px solid orangered;
+	border-bottom: none;
+	background-color: white;
+}
+
+.left-box {
+	width: 330px;
+	height: 102px;
+	margin-top: 16px;
+	text-align: center;
+}
+
+.p1 {
+	float: left;
+	margin-right: 12px;
+}
+
+.p2 {
+	float: left;
+}
+
+.p3 {
+	float: right;
+}
+
+.p1 a {
+	font-size: 12px;
+}
+
+.p2 a {
+	font-size: 12px;
+}
+
+.p3 a {
+	font-size: 12px;
+}
+
+.pa {
+	width: 338px;
+	height: 92px;
+	/*background-color: darkgray;*/
+}
+
+.pa dt {
+	margin-right: 32px;
+}
+
+.pa a img {
+	float: left;
+	line-height: 92px;
+	margin-right: 16px;
+}
+
+.pa ul {
+	list-style-position: inside;
+}
+
+.pa ul li a {
+	margin-right: -10px;
+	padding-right: 2px;
+	font-size: 12px;
+}
+
+.txtt {
+	margin-top: 10px;
+	padding-left: 16px;
+}
+
+.txtt ul li a {
+	font-size: 16px;
+}
+.last{
+	width: 242px;
+	height: 190px;
+	/*background-color: palegoldenrod;*/
+	border:1px solid gray;
+}
+.last dt{
+	float: left;
+	}
+	.last img{
+		padding-right: 16px;
+	}

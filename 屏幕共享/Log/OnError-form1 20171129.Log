@@ -1,0 +1,5 @@
+2017-11-29 15:56:53: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.Socket'.   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult, SocketError& errorCode)
+   at System.Net.Sockets.Socket.EndReceive(IAsyncResult asyncResult)
+   at Yinrg.Net.Sockets.SocketClient.s91nev5CPITrFiQpWCt(Object , Object )
+   at Yinrg.Net.Sockets.SocketClient.GsnOTWuuJ(IAsyncResult  )

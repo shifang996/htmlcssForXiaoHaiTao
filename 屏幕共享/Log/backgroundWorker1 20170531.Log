@@ -1,0 +1,4 @@
+2017-05-31 11:18:31: 句柄无效。   在 System.Drawing.Graphics.CopyFromScreen(Int32 sourceX, Int32 sourceY, Int32 destinationX, Int32 destinationY, Size blockRegionSize, CopyPixelOperation copyPixelOperation)
+   在 System.Drawing.Graphics.CopyFromScreen(Point upperLeftSource, Point upperLeftDestination, Size blockRegionSize)
+   在 server.Form1.PeZUms8p5y8tHbtvXhC(Object , Point , Point , Size )
+   在 server.Form1.lP9ipFLHp(Object  , DoWorkEventArgs  )

@@ -1,0 +1,51 @@
+@charset "utf-8";
+*{
+	margin: auto;
+	padding: 0;
+}
+.bigbox{
+	width: 700px;
+	height: 400px;
+	border: solid 1px red; 
+	background: yellow;
+	margin: 0 auto;
+}
+.box1{
+	width: 300px;
+	height: 300px;
+	border: solid 1px red;
+	padding: 5px 4px 5px 4px ;
+	padding: 10px;
+	float: left;
+	background: cyan;
+	margin: 10px;
+}
+.txt1{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "微软雅黑";
+}
+.txt2{
+	font-weight: normal;
+	color: gray;
+}
+.txt3{
+	color: red;
+	font-size: 20px;
+	font-weight: normal;
+	font-family: "微软雅黑";
+}
+span{
+	font-size: 14px;
+	color: gray;
+}
+.box2{
+	width: 300px;
+	height: 300px;
+	border: solid 1px blue;
+	padding: 5px 4px 5px 4px ;
+	padding: 10px;
+	float:right;
+	background: hotpink;
+	margin: 10px;
+}

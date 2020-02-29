@@ -1,0 +1,307 @@
+* {
+	padding: 0;
+	margin: 0 auto;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	font-family: "微软雅黑";
+	vertical-align: middle;
+}
+li:hover{
+	color: orangered;
+}
+.content {
+	width: 1433px;
+	height: 834px;
+	background-color: #f8f8f8;
+	position: relative;
+}
+.seach{
+	position: absolute;
+	top: 14px;
+	left: 410px;
+	z-index: 1;
+}
+.nav {
+	width: 1433px;
+	height: 118px;
+	background: white;
+	position: relative;
+	border-bottom: 2px solid orangered;
+}
+.nav img{
+	position: absolute;
+	top: 10px;
+	left: 118px;
+}
+.nav-top{
+	width: 90px;
+	height: 30px;
+	/*background-color: red;*/
+	position: absolute;
+	top: 20px;
+	left: 425px;
+	background-image: url(../img/psition.png);
+	background-repeat: no-repeat;
+	background-position: -16px;
+}
+.nav-top select{
+	border: none;
+}
+.navtext{
+	width: 360px;
+	height: 32px;
+	border: 2px solid orangered;
+	position: absolute;
+	color: white;
+	top:12px ;
+	left: 524px;
+}
+.navsub{
+	width: 120px;
+	height: 36px;
+	background: orangered;
+	border: none;
+	position: absolute;
+	top: 12px;
+	right: 430px;
+}
+.-navbot{
+	width: 434px;
+	height: 32px;
+	background: white;
+	position: absolute;bottom: 0px;
+	left: 120px;
+}
+.-navbot-left{
+	width: 212px;
+	float: left;
+	height: 100%;
+	background-color: orangered;
+}
+.-navbot-rg{
+	width: 200px;
+	height: 32px;
+	float: right;
+}
+.-navbot-left a{
+	color: white;
+	font-size: 14px;
+	line-height: 32px;
+	font-weight: bold;
+	padding-left: 16px;
+}
+.-navbot-rg li{
+	float: left;
+	line-height: 32px;
+	padding-right: 54px;
+	font-size: 12px;
+}
+.center {
+	width: 1190px;
+	height: 350px;
+	/*background: pink;*/
+	margin-top: 14px;
+}
+
+.cen-left img {
+	width: 870px;
+	height: 350px;
+	float: left;
+}
+
+.cen-rg {
+	width: 292px;
+	height: 100%;
+	background: white;
+	float: right;
+	text-align: center;
+}
+
+.cen-rg img {
+	width: 60px;
+	height: 60px;
+	margin-top: 23px;
+}
+
+.cen-rg a {
+	font-size: 11px;
+}
+
+.c-rg-sp1 a {
+	font-size: 16px;
+	padding-top: 6px;
+	font-weight: bold;
+}
+
+.cen-rg input {
+	margin-top: 14px;
+	width: 80px;
+	height: 25px;
+	background: #ff5800;
+	border: none;
+	color: white;
+}
+
+.c-rg-bot {
+	margin-top: 40px;
+}
+
+.c-rg-bot img {
+	width: 150px;
+	height: 40px;
+	margin-top: 6px;
+}
+
+.c-rg-bot font {
+	color: cornflowerblue;
+}
+
+.c-rg-bot dd {
+	vertical-align: bottom;
+}
+
+.rrrr {
+	margin-top: 6px;
+	/*line-height: 26px;*/
+	/*background: red;*/
+	/*width: 240px;*/
+}
+.rrrr u{
+	text-decoration: underline;
+	color: orange;
+}
+.rrrr a {
+	font-size: 12px;
+}
+
+.bottom {
+	width: 1190px;
+	height: 300px;
+	/*background: plum;*/
+	margin-top: 46px;
+}
+
+.bot-left {
+	width: 870px;
+	height: 100%;
+	/*background: white;*/
+	float: left;
+}
+
+.bot-rg {
+	width: 292px;
+	height: 100%;
+	background: white;
+	float: right;
+}
+
+.left-top {
+	height: 30px;
+	width: 100%;
+	/*background-color: yellowgreen;*/
+	border-bottom: 1px solid lightgrey;
+}
+
+.left-top li {
+	float: left;
+	line-height: 30px;
+	font-size: 12px;
+	padding-right: 26px;
+}
+
+.bot-top2 {
+	width: 294px;
+	height: 60px;
+	/*background: orchid;*/
+	float: right;
+}
+
+.bot-top3 {
+	width: 100%;
+	height: 212px;
+	/*background: gainsboro;*/
+	margin-top: 60px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.bot-top2 li {
+	float: right;
+	line-height: 60px;
+	padding-left: 6px;
+	font-size: 12px;
+}
+
+.top3 {
+	width: 280px;
+	height: 210px;
+	/*background: palegoldenrod;*/
+}
+
+.top3 img {
+	width: 280px;
+	height: 210px;
+}
+.top3 img:hover{
+	transform: scale(1.1,1.1);
+}
+.rg-top {
+	width: 270px;
+	height: 30px;
+	/*background: yellow;*/
+	line-height: 30px;
+}
+
+.rg-top span {
+	color: #d8d8d8;
+}
+
+.rg-bot {
+	width: 270px;
+	height: 270px;
+	/*background: palegreen;*/
+	/*margin-top: 30px;*/
+}
+
+.bot-box {
+	height: 50px;
+	width: 100%;
+	/*background: olive;*/
+	margin-top: 4px;
+}
+
+.bot-box img {
+	float: left;
+	border-radius: 100%;
+	margin-right: 6px;
+}
+
+.bot-box font {
+	color: black;
+}
+
+.bot-box dd {
+	color: orange;
+	font-size: 12px;
+	padding-top: 10px;
+}
+.aside{
+	width: 55px;
+	height: 120px;
+	background: orange;
+	position: absolute;right: 10px;
+	bottom: 6px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.ttttt{
+	height:53px ;
+	width: 100%;
+	flex: 1;
+	background: palegoldenrod;
+	border: 1px solid;
+}

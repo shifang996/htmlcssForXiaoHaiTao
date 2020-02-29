@@ -1,0 +1,6 @@
+2018-12-27 15:59:00: 服务还没有启动   at Yinrg.Net.Sockets.SocketServer.Stop()
+   at server.Form1.GWpkJ6AfU1i88Dg06Sq(Object )
+   at server.Form1.lP9ipFLHp(Object  , DoWorkEventArgs  )
+2018-12-27 16:19:47: 服务还没有启动   at Yinrg.Net.Sockets.SocketServer.Stop()
+   at server.Form1.GWpkJ6AfU1i88Dg06Sq(Object )
+   at server.Form1.lP9ipFLHp(Object  , DoWorkEventArgs  )

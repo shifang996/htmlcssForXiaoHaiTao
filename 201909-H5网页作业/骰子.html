@@ -1,0 +1,108 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+
+    <style type="text/css">
+
+
+
+
+        .box{
+            perspective: 800px;
+            perspective-origin: 50% 100px;
+            margin-left: 500px;
+            margin-top: 200px;
+        }
+
+
+      .boss{
+            position: relative;
+            transform-style: preserve-3d;
+           width: 200px;
+        }
+
+
+
+
+        .boss div{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+
+
+        }
+      
+      .front{
+        transform: translateZ(100px);
+        /*background: red;*/
+      }
+
+
+      .back{
+        transform: translateZ(-100px) rotateY(180deg);
+        background: blue;
+
+
+      }
+
+
+     .top{
+        transform:rotateX(-90deg) translateY(-100px); 
+        background: yellow;
+        transform-origin: top center;
+     }
+
+
+     .bottom{
+
+
+        transform:rotateX(90deg) translateY(100px); 
+        background: green;
+        transform-origin: bottom center;
+
+
+     }
+
+
+     .left{
+        transform:rotateY(270deg) translateX(-100px); 
+        background:pink ;
+        transform-origin: center left;
+
+
+     }
+
+
+     .right{
+          transform:rotateY(-270deg) translateX(100px); 
+        background:pink ;
+        transform-origin: center right;
+     }
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="box">
+        
+        <div class="boss">
+            <div class="front">前</div>
+            <div class="back">后</div>
+            <div class="top">上</div>
+            <div class="bottom">下</div>
+            <div class="left">左</div>
+            <div class="right">右</div>
+        </div>
+    </div>
+
+
+</body>
+</html>

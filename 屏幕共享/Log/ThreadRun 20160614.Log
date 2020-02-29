@@ -1,0 +1,8 @@
+2016-06-14 10:29:16: 向一个无法连接的网络尝试了一个套接字操作。 192.168.1.13:8990   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 server.Form1.YM66krrC3L15NuAplTo(Object , Object )
+   在 server.Form1.drS3X35F3F(Object  )
+2016-06-14 10:29:16: 向一个无法连接的网络尝试了一个套接字操作。 192.168.1.48:8990   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 server.Form1.YM66krrC3L15NuAplTo(Object , Object )
+   在 server.Form1.drS3X35F3F(Object  )
